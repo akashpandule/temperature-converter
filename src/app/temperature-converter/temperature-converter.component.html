@@ -1,0 +1,12 @@
+<div id="temp">
+<p>temperature-converter works!</p>
+<label for="celsiusInput"> Enter Celsius Value:</label>
+<input type="number" id="celsiusInput" [(ngModel)]="cel" (input)="convertCelToFahr()">
+==>
+</div>
+<div>
+<label for="fahrenheitInput">Faharenite:</label>
+<input type="number" id="fahrenheitInput"[(ngModel)]="fahr" (input)="convertFahrToCel()">
+<label for="">fahrenheitInput:</label>
+</div>
+
